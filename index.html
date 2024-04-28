@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <h3>Select a number (1)</h3>
+     <input type="number" id="num-one" min="0" placeholder="0"> 
+
+     <h3>Select a number (2)</h3>
+     <input type="number" id="num-two" min="0" placeholder="0"><br>
+         
+     <select id="operation">
+        <option value="+">Add</option>
+        <option value="-">Minus</option>
+        <option value="*">Multiply</option>
+        <option value="/">Divide</option>
+     </select><br>
+
+     <button type="button" id="result">Calculate</button>
+
+     <p id="result-text"></p>
+
+     <script src="script.js"></script>
+</body>
+</html>
